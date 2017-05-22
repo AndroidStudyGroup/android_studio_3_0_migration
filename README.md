@@ -37,6 +37,18 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.apollographql.android'
 ```
 
+### For renaming APK, cannot rename output files since they are now read-only.
+
+Use `archivesBaseName` in the build type
+
+```
+        debug {
+            signingConfig signingConfigs.debugSignConfig
+            applicationIdSuffix ".debug"
+            archivesBaseName = "app-$defaultConfig.versionName"
+        }
+```
+
 
 ### Error with Autovalue Annotations
 
