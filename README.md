@@ -12,7 +12,7 @@ See https://github.com/bjoernQ/unmock-plugin/issues/31
 
 ### CircleCI cannot find Play Services, Support Library and Contraint Layout
 
-Grab them manually thru android tooks.
+Grab them manually thru android tools.
 
 ```
 echo y | android update sdk --no-ui --all --filter "tools,extra-android-m2repository,extra-android-support,extra-google-google_play_services,extra-google-m2repository"
