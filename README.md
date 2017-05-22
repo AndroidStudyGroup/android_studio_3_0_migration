@@ -2,14 +2,15 @@
 
 
 
-## unmock plugin cannot find Android jar.
+### unmock plugin cannot find Android jar.
 
 Upgrade to version 0.6.1 of umock plugin.
 
 See https://github.com/bjoernQ/unmock-plugin/issues/31
 
 
-## CircleCI cannot find Play Services, Support Library and Contraint Layout
+
+### CircleCI cannot find Play Services, Support Library and Contraint Layout
 
 Grab them manually thru android tooks.
 
@@ -22,7 +23,8 @@ The `android` tool does not have access to ConstrainsLayout package but `sdkmana
 echo y | /usr/local/android-sdk-linux/tools/bin/sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout;1.0.2"
 ```
 
-## Apollo Android Library: class file for com.apollographql.apollo.api.Operation not found
+
+### Apollo Android Library: class file for com.apollographql.apollo.api.Operation not found
 
 https://github.com/apollographql/apollo-android/
 
@@ -35,7 +37,8 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.apollographql.android'
 ```
 
-## Error with Autovalue Annotations
+
+### Error with Autovalue Annotations
 
 Add workaround to android > default config in the app's `build.gradle`
 
