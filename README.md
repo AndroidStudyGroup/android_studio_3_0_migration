@@ -1,4 +1,4 @@
-# Issues and Solutions after upgrading Gradle to 4.0-milestone and Gradle plugin to 3.0.0.-alpha1
+## Issues and Solutions after upgrading Gradle to 4.0-milestone and Gradle plugin to 3.0.0.-alpha1
 
 
 
